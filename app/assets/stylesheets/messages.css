@@ -5,15 +5,47 @@
   width: 300px;
   height: 100vh;
   background-color: #253141;
+  
 }
 
 .side-header {
   height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a {
+  font-size: 16px;
+  color:#FAFAFA;
+  text-decoration: none;
+}
+
+.chat-btn a {
+  font-size: 10px;
+  color:deepskyblue;
+  padding:14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 .rooms {
   height: calc(100vh - 100px);
   background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
 }
+
+.room{
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color:white;
+  text-decoration: none;
+}
+
 .main-chat {
   width: calc(100vw - 300px);
   background-color: #ffffff;
